@@ -259,3 +259,21 @@ Selected.prototype = {
         return offset;
     }
 };
+
+
+//mod at 2017-08-17
+//新增自定义样式的进度条
+
+/***
+  var sss = document.getElementsByTagName("audio")[0];
+  sss.addEventListener("timeupdate", function(e) {
+  var nowWidth = (this.currentTime / this.duration) * 100 +'%';
+     document.getElementsByClassName('proc_cur')[0].style.width = nowWidth;
+  })
+***/
+/***
+<div style="width: 500px;height: 10px;background: #000;margin: 50px auto;">
+    <div class="proc_cur" style="height: 100%;width: 5px;background: #086;"></div>
+</div>
+***/
+
